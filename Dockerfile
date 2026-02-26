@@ -14,4 +14,5 @@ COPY chain-config.json /root/.avalanchego/configs/chains/hYf5BWtqT6MajJdGUCSYy5j
 EXPOSE 9650 9651
 
 # Explicitly pass config file so avalanchego picks up fuji network-id
-CMD ["avalanchego", "--config-file=/root/.avalanchego/configs/node.json"]
+# Binary lives at /avalanchego/build/avalanchego (base image WORKDIR)
+CMD ["./avalanchego", "--config-file=/root/.avalanchego/configs/node.json"]
