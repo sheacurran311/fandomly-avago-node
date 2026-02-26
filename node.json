@@ -5,7 +5,7 @@
   "http-port": 9650,
   "staking-port": 9651,
   "partial-sync-primary-network": true,
-  "track-subnets": "vL9vTZRUrJoPGppzygWsRigrQ4GPrgk2AAVxyQVJqWFP8BJhR",
+  "track-subnets": "2G2z7yGeWPKvwtJKbcs5bqEgwBATT5jkJNJHjt5RnhTBficJ93",
   "http-allowed-hosts": "*",
   "http-allowed-origins": "*",
   "api-admin-enabled": false
