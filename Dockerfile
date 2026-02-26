@@ -13,4 +13,5 @@ COPY chain-config.json /root/.avalanchego/configs/chains/hYf5BWtqT6MajJdGUCSYy5j
 # Expose P2P and RPC ports
 EXPOSE 9650 9651
 
-# AvalancheGo starts automatically from the base image entrypoint
+# Explicitly pass config file so avalanchego picks up fuji network-id
+CMD ["avalanchego", "--config-file=/root/.avalanchego/configs/node.json"]
