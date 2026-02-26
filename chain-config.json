@@ -1,0 +1,5 @@
+{
+  "pruning-enabled": false,
+  "metrics-expensive-enabled": false,
+  "skip-tx-indexing": false
+}
